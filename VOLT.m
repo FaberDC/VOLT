@@ -40,7 +40,7 @@ function [] = VOLT(results, branch_var, terminal, bus_var, show_labels, opts)
 %
 %
 %%% Example:
-%   mpc = loadcase('case39');
+%   mpc = loadcase('case5');
 %   results = runpf(mpc);
 %   opts = []; % optional
 %   VOLT(results,'S','F','VM','Y',opts);

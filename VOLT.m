@@ -1,5 +1,3 @@
-
-
 function [] = VOLT(results, branch_var, terminal, bus_var, show_labels, opts)
 %                    ___
 %    /\_/\          /   \

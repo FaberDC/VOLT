@@ -5,4 +5,4 @@ Visual Output for Layered Topologies in Power Systems. A library to visualize po
 [![Paper Status](https://img.shields.io/badge/Paper-Under%20Peer%20Review-yellow.svg)](#articolo-scientifico)
 [![Guide](https://img.shields.io/badge/Guide-PDF-blue.svg)](VOLT_user_guide.pdf)
 [![Examples](https://img.shields.io/badge/Examples-Script-brightgreen.svg)](EXAMPLES.m)
-[![Esempio VOLT](figures/grafico.png)](figures/case5_bus_max_details.pdf)
+[![Esempio VOLT]([figures/grafico.png](https://img.shields.io/badge/Examples-Script-brightgreen.svg))](figures/case5_bus_max_details.pdf)

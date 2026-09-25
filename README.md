@@ -33,25 +33,25 @@ A library to visualize power flow-based results arranged in MATPOWER cases.
 
 ## 🌟 Key Features & Core Contributions
 
-* **Dynamic Flow Rendering**: Automatic orientation of branch arrows according to physical active power flow direction ($P$) and dynamic colormap rescaling[cite: 6].
-* **Layered Architecture**: Independent layer separation for bus metrics, branch metrics, and graphic legends to prevent visual clutter and overlapping[cite: 6].
-* **Publication-Ready Outputs**: Generation of customizable MATLAB figures (`.fig`) and vector formats (`.pdf`, `.eps`) ready for academic papers and teaching[cite: 6].
-* **Layout Flexibility**: Support for both automatic placement (force-directed graph algorithms) and custom spatial coordinates[cite: 6].
+* **Dynamic Flow Rendering**: Automatic orientation of branch arrows according to physical active power flow direction ($P$) and dynamic colormap rescaling.
+* **Layered Architecture**: Independent layer separation for bus metrics, branch metrics, and graphic legends to prevent visual clutter and overlapping.
+* **Publication-Ready Outputs**: Generation of customizable MATLAB figures (`.fig`) and vector formats (`.pdf`, `.eps`) ready for academic papers and teaching.
+* **Layout Flexibility**: Support for both automatic placement (force-directed graph algorithms) and custom spatial coordinates.
 
 ## 📋 System Requirements
 
-* **MATLAB**: Version R2023b or later with standard **Graph Theory Toolbox** functions[cite: 6].
-* **MATPOWER**: MATPOWER package (required for data structure handling and the `ext2int` function)[cite: 6].
-* **Recommended Hardware**: A dedicated graphics card is recommended to ensure smooth rendering performance on medium to large power networks (up to 2,500 buses)[cite: 6].
+* **MATLAB**: Version R2023b or later with standard **Graph Theory Toolbox** functions.
+* **MATPOWER**: MATPOWER package (required for data structure handling and the `ext2int` function).
+* **Recommended Hardware**: A dedicated graphics card is recommended to ensure smooth rendering performance on medium to large power networks (up to 2,500 buses).
 ## ⚙️ Installation & Setup
 
-VOLT is distributed as a single lightweight file (`VOLT.m`) and requires no complex installation procedure or external compilation[cite: 6].
+VOLT is distributed as a single lightweight file (`VOLT.m`) and requires no complex installation procedure or external compilation.
 
 ### Method 1: Working Directory (Quick Setup)
-Copy the `VOLT.m` file directly into the working folder where your main MATLAB script resides[cite: 6].
+Copy the `VOLT.m` file directly into the working folder where your main MATLAB script resides.
 
 ### Method 2: Adding to MATLAB Global Path (Recommended)
-To invoke VOLT from any project directory without duplicating the file[cite: 6]:
+To invoke VOLT from any project directory without duplicating the file:
 
 **Via MATLAB Command Window:**
 ```matlab
@@ -61,7 +61,7 @@ savepath; % Saves the path for future MATLAB sessions
 
 📝 How to Cite
 
-If you use **VOLT** in your research work or teaching activities, please cite the toolbox and technical documentation[cite: 6]:
+If you use **VOLT** in your research work or teaching activities, please cite the toolbox and technical documentation:
 
 @misc{VOLT2026,
   author       = {De Caro, Fabrizio and Vaccaro, Alfredo},
@@ -74,7 +74,7 @@ If you use **VOLT** in your research work or teaching activities, please cite th
 
 ## 📜 License
 
-Distributed under the **GNU General Public License v3.0 (GPLv3)**[cite: 6].
+Distributed under the **GNU General Public License v3.0 (GPLv3)**.
 
 Copyright (c) 2026 **Fabrizio De Caro, Alfredo Vaccaro**  
 *Power Systems Research Group — Department of Engineering, University of Sannio, Benevento, Italy*.

@@ -80,4 +80,4 @@ If you use **VOLT** in your research work or teaching activities, please cite th
 Distributed under the **GNU General Public License v3.0 (GPLv3)**.
 
 Copyright (c) 2026 **Fabrizio De Caro, Alfredo Vaccaro**  
-*Power Systems Research Group — Department of Engineering, University of Sannio, Benevento, Italy*.
+*Power System Research Group — Department of Engineering, University of Sannio, Benevento, Italy*.

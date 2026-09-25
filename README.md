@@ -1,6 +1,6 @@
 # VOLT
 
-**Visual Output for Layered Topologies in Power Systems Analysis**  
+**Visual Output for Layered Topologies in Power System Analysis**  
 A library to visualize power flow-based results arranged in MATPOWER cases.
 
 [![MATLAB](https://img.shields.io/badge/MATLAB-Code-orange.svg)](https://www.mathworks.com/products/matlab.html)

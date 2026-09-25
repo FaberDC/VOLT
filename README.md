@@ -63,7 +63,7 @@ savepath; % Saves the path for future MATLAB sessions
 
 📝 How to Cite
 
-If you use **VOLT** in your research work or teaching activities, please cite the toolbox and technical documentation:
+If VOLT made your power system visualizations easier or supported your academic work, we would truly appreciate a citation:
 
 ```text
 @misc{VOLT2026,

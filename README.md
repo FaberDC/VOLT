@@ -1,5 +1,5 @@
 # VOLT
-Visual Output for Layered Topologies in Power Systems.
+Visual Output for Layered Topologies in Power Systems Analisys.
 
 A library to visualize power flow-based results arranged in MATPOWER cases.
 

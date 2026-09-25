@@ -8,7 +8,7 @@ function [] = VOLT(results, branch_var, terminal, bus_var, show_labels, opts)
 %       |   |-----|   |        Topologies 
 %       |___|     |___|~~~~
 % 
-% VOLT visualizes the network topology with professional color maps, line widths, 
+% VOLT visualizes the power network topology with professional color maps, line widths, 
 %          and colorbars for power flows and voltage profiles.
 %
 % Version: 1.0.0

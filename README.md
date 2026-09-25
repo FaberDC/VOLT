@@ -64,6 +64,7 @@ savepath; % Saves the path for future MATLAB sessions
 
 If you use **VOLT** in your research work or teaching activities, please cite the toolbox and technical documentation:
 
+```text
 @misc{VOLT2026,
   author       = {De Caro, Fabrizio and Vaccaro, Alfredo},
   title        = {{VOLT}: Visual Output for Layered Topologies (Version 1.0)},
@@ -72,6 +73,7 @@ If you use **VOLT** in your research work or teaching activities, please cite th
   note         = {Available at GitHub repository},
   url          = {[https://github.com/username/VOLT](https://github.com/username/VOLT)}
 }
+```
 
 ## 📜 License
 

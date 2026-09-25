@@ -41,8 +41,9 @@ A library to visualize power flow-based results arranged in MATPOWER cases.
 ## 📋 System Requirements
 
 * **MATLAB**: Version R2023b or later with standard **Graph Theory Toolbox** functions.
-* **MATPOWER**: MATPOWER package (required for data structure handling and the `ext2int` function).
+* **[MATPOWER](https://matpower.org/)**: Free, open-source tools for electric power system simulation and optimization (required for data structure handling and the `ext2int` function).
 * **Recommended Hardware**: A dedicated graphics card is recommended to ensure smooth rendering performance on medium to large power networks (up to 2,500 buses).
+
 ## ⚙️ Installation & Setup
 
 VOLT is distributed as a single lightweight file (`VOLT.m`) and requires no complex installation procedure or external compilation.

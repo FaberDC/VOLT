@@ -8,8 +8,6 @@ A library to visualize power flow-based results arranged in MATPOWER cases.
 [![Guide](https://img.shields.io/badge/Guide-PDF-blue.svg)](VOLT_user_guide.pdf)
 [![Examples](https://img.shields.io/badge/Examples-Script-brightgreen.svg)](EXAMPLES.m)
 
----
-
 ## 🖼️ Preview
 
 <p align="center">
@@ -19,8 +17,6 @@ A library to visualize power flow-based results arranged in MATPOWER cases.
   <br>
   <em>Example of network visualization generated with VOLT. Click the image to open the high-resolution vector PDF.</em>
 </p>
-
----
 
 ## 📁 Repository Structure
 
@@ -32,3 +28,51 @@ A library to visualize power flow-based results arranged in MATPOWER cases.
 ├── README.md            # Repository documentation
 ├── VOLT.m               # Core algorithm and functions
 └── VOLT_user_guide.pdf  # Comprehensive user manual
+
+## 🌟 Key Features & Core Contributions
+
+* **Dynamic Flow Rendering**: Automatic orientation of branch arrows according to physical active power flow direction ($P$) and dynamic colormap rescaling[cite: 6].
+* **Layered Architecture**: Independent layer separation for bus metrics, branch metrics, and graphic legends to prevent visual clutter and overlapping[cite: 6].
+* **Publication-Ready Outputs**: Generation of customizable MATLAB figures (`.fig`) and vector formats (`.pdf`, `.eps`) ready for academic papers and teaching[cite: 6].
+* **Layout Flexibility**: Support for both automatic placement (force-directed graph algorithms) and custom spatial coordinates[cite: 6].
+
+## 📋 System Requirements
+
+* **MATLAB**: Version R2023b or later with standard **Graph Theory Toolbox** functions[cite: 6].
+* **MATPOWER**: MATPOWER package (required for data structure handling and the `ext2int` function)[cite: 6].
+* **Recommended Hardware**: A dedicated graphics card is recommended to ensure smooth rendering performance on medium to large power networks (up to 2,500 buses)[cite: 6].
+## ⚙️ Installation & Setup
+
+VOLT is distributed as a single lightweight file (`VOLT.m`) and requires no complex installation procedure or external compilation[cite: 6].
+
+### Method 1: Working Directory (Quick Setup)
+Copy the `VOLT.m` file directly into the working folder where your main MATLAB script resides[cite: 6].
+
+### Method 2: Adding to MATLAB Global Path (Recommended)
+To invoke VOLT from any project directory without duplicating the file[cite: 6]:
+
+**Via MATLAB Command Window:**
+```matlab
+addpath('C:/Path/To/Your/VOLT_Folder');
+savepath; % Saves the path for future MATLAB sessions
+```
+
+📝 How to Cite
+
+If you use **VOLT** in your research work or teaching activities, please cite the toolbox and technical documentation[cite: 6]:
+
+@misc{VOLT2026,
+  author       = {De Caro, Fabrizio and Vaccaro, Alfredo},
+  title        = {{VOLT}: Visual Output for Layered Topologies (Version 1.0)},
+  year         = {2026},
+  howpublished = {MATLAB Toolbox, University of Sannio},
+  note         = {Available at GitHub repository},
+  url          = {[https://github.com/username/VOLT](https://github.com/username/VOLT)}
+}
+
+## 📜 License
+
+Distributed under the **GNU General Public License v3.0 (GPLv3)**[cite: 6].
+
+Copyright (c) 2026 **Fabrizio De Caro, Alfredo Vaccaro**  
+*Power Systems Research Group — Department of Engineering, University of Sannio, Benevento, Italy*.

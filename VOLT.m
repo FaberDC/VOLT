@@ -8,7 +8,7 @@ function [] = VOLT(results, branch_var, terminal, bus_var, show_labels, opts)
 %       |   |-----|   |        Topologies 
 %       |___|     |___|~~~~
 % 
-% VOLT visualizes the power network topology with professional color maps, line widths, 
+% VOLT visualizes the network topology with professional color maps, line widths, 
 %          and colorbars for power flows and voltage profiles.
 %
 % Version: 1.0.0
@@ -38,7 +38,7 @@ function [] = VOLT(results, branch_var, terminal, bus_var, show_labels, opts)
 %
 %
 %%% Example:
-%   mpc = loadcase('case5');
+%   mpc = loadcase('case39');
 %   results = runpf(mpc);
 %   opts = []; % optional
 %   VOLT(results,'S','F','VM','Y',opts);
@@ -387,7 +387,7 @@ for i = 1:num_branches
 end
 
 %% --- Graph Setup and Bus ID-to-Row Mapping
-G     = digraph(edges(:,1), edges(:,2), branch_values, num_nodes);
+G     = digraph(edges(:,1), edges(:,2));
 busId = results.bus(:,1);
 busarea = results.bus(:,7);
 
@@ -484,7 +484,7 @@ for e = 1:num_edges_graph
         end
     end
     % 3) No match found
-    warning('Arco del grafo #%d = [%d %d]: nessun match in results.branch(:,1:2).', e, fg, tg);
+    warning('Graph Edge #%d = [%d %d]: No match in results.branch(:,1:2).', e, fg, tg);
     edge2branch_idx(e) = NaN; % Explicitly flag missing match
 end
 % --- Mapping End-------------------------------------------------------------

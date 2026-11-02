@@ -68,7 +68,7 @@ If VOLT made your power system visualizations easier or supported your academic 
 ```text
 @misc{VOLT2026,
   author       = {De Caro, Fabrizio and Vaccaro, Alfredo},
-  title        = {{VOLT}: Visual Output for Layered Topologies (Version 1.0)},
+  title        = {{VOLT}:{V}isual {O}utput for {L}ayered {T}opologies (Version 1.0)},
   year         = {2026},
   howpublished = {MATLAB Toolbox, University of Sannio},
   note         = {Available at GitHub repository},

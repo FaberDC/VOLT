@@ -72,7 +72,7 @@ If VOLT made your power system visualizations easier or supported your academic 
   year         = {2026},
   howpublished = {MATLAB Toolbox, University of Sannio},
   note         = {Available at GitHub repository},
-  url          = {[https://github.com/FaberDC/VOLT](https://github.com/FaberDC/VOLT)}
+  url          = {https://github.com/FaberDC/VOLT}
 }
 ```
 
